@@ -6,10 +6,10 @@
 ## D
 ### 邓紫棋
 
-#### 邓紫棋
+#### 泡沫
 
 <audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/deng_zi_qi/paomo.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/deng_zi_qi/pao_mo.mp3" type="audio/mpeg">
 </audio>
 
 
@@ -24,13 +24,13 @@
 ### 林宥嘉
 #### 成全
 <audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/lin_you_jia/chen_quan.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/lin_you_jia/cheng_quan.mp3" type="audio/mpeg">
 </audio>
 
 
 #### 你把我灌醉
 <audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/lin_you_jia/ni_ba_wo_guang_zui.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/lin_you_jia/ni_ba_wo_gaung_zui.mp3" type="audio/mpeg">
 </audio>
 
 
@@ -92,11 +92,27 @@
 </audio>
 
 ## T
+### 逃跑计划
+
+#### 夜空中最亮的星
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/tao_pao_ji_hua/ye_kong_zhong_zui_liang_de_xing.mp3" type="audio/mpeg">
+</audio>
+
+
 ## U
 ## V
 ## W
 ### 王力宏
 ### 王大毛
+
+#### 去年夏天
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_da_mao/qu_nian_xia_tian.mp3" type="audio/mpeg">
+</audio>
+
+
+
 
 ## X
 ### 薛之谦
@@ -106,6 +122,15 @@
 </audio>
 
 ## Y
+### 于文文体面
+
+#### 体面
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/yu_wen_wen/ti_mian.mp3" type="audio/mpeg">
+</audio>
+
+
+
 ## Z
 ### 张学友
 
@@ -213,23 +238,56 @@
 ## V1
 ## W1
 ## X1
+### 许冠杰
+#### 沧海一声笑
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/cantonese/xu_guang_jie/cang_hai_yi_sheng_xiao.mp3" type="audio/mpeg">
+</audio>
+
 ## Y1
 ## Z1
 
-
-
-# 古典音乐
 
 
 
 
 # 外语
 
-## charlie_puth 
+## Charlie_Puth 查理·普斯
 ###  《See You Again》
 
 <audio controls>
   <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/charlie_puth/see_you_again.mp3" type="audio/mpeg">
 </audio>
 
-## LinkPark
+
+## Crpenters 卡朋特乐队
+###  Yesterday Once More
+
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/crpenters/yesterday_once_more.mp3" type="audio/mpeg">
+</audio>
+
+
+
+## LinkPark 林肯公园
+
+
+# 古典音乐
+
+## kimi_wo_omou_melodi 想念你的旋律
+
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/kimi_wo_omou_melodi.mp3" type="audio/mpeg">
+</audio>
+
+
+
+## summer 久石让
+
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/summer.mp3" type="audio/mpeg">
+</audio>
+
+
+
