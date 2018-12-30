@@ -3,6 +3,12 @@
 ## A
 ## B
 ## C
+### 陈鸿宇
+#### 理想三旬
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/chen_hong_yu/li_xiang_san_xun.mp3" type="audio/mpeg">
+</audio>
+
 ## D
 ### 邓紫棋
 
@@ -60,7 +66,11 @@
 </audio>
 
 
-
+### 李志
+#### 梵高先生
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/li_zhi/fan_gao_xian_sheng.mp3" type="audio/mpeg">
+</audio>
 
 
 ## M
@@ -120,6 +130,13 @@
 <audio controls>
   <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/xue_zhi_qian/yan_yuan.mp3" type="audio/mpeg">
 </audio>
+
+#### 丑八怪
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/xue_zhi_qian/chou_ba_guai.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Y
 ### 于文文体面
@@ -268,9 +285,45 @@
   <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/crpenters/yesterday_once_more.mp3" type="audio/mpeg">
 </audio>
 
+## Delacey
+### dream it possible
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/delacey/dream_it_possible.mp3" type="audio/mpeg">
+</audio>
 
+## Tamas_Wells 塔马斯·韦尔斯
+### valder fields
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/tamas_wells/valder_fields.mp3" type="audio/mpeg">
+</audio>
+
+
+##  Maroon5
+### Sugar
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/maroon5/sugar.mp3" type="audio/mpeg">
+</audio>
+
+## Justin Timberlake 贾斯汀·汀布莱克
+### five hundred miles
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/justin_timberlake/five_hundred_miles.mp3" type="audio/mpeg">
+</audio>
 
 ## LinkPark 林肯公园
+
+## Richard Marx 理查德·马克斯
+### Right Here Waiting
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/richard_marx/right_here_waiting.mp3" type="audio/mpeg">
+</audio>
+
+## Aoi Teshima  手嶌葵
+### the rose
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/aoi_teshima/the_rose.mp3" type="audio/mpeg">
+</audio>
+
 
 
 # 古典音乐
