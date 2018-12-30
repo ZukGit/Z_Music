@@ -5,6 +5,7 @@
 ## C
 ### 陈鸿宇
 #### 理想三旬
+
 <audio controls>
   <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/chen_hong_yu/li_xiang_san_xun.mp3" type="audio/mpeg">
 </audio>
@@ -29,6 +30,7 @@
 ## L
 ### 林宥嘉
 #### 成全
+
 <audio controls>
   <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/lin_you_jia/cheng_quan.mp3" type="audio/mpeg">
 </audio>
@@ -153,7 +155,7 @@
 
 #### 遥远的他
 <audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhang_xue_you/yuan_yuan_de_ta.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhang_xue_you/yao_yuan_de_ta.mp3" type="audio/mpeg">
 </audio>
 
 
@@ -331,7 +333,7 @@
 ## kimi_wo_omou_melodi 想念你的旋律
 
 <audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/kimi_wo_omou_melodi.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/classical/kimi_wo_omou_melodi.mp3" type="audio/mpeg">
 </audio>
 
 
@@ -339,7 +341,7 @@
 ## summer 久石让
 
 <audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/summer.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/classical/summer.mp3" type="audio/mpeg">
 </audio>
 
 
