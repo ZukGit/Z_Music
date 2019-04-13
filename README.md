@@ -55,6 +55,54 @@ audios[indexItem].pause();
 curAudio.play();
 }
 };
+var loopfunc = function(){
+var maxIndex = audios.length;
+var minIndex = 0;
+var randomIndex;
+var tempAudio;
+var randomIndex;
+var avaibleIndexFlag = false;
+while(!avaibleIndexFlag){
+randomIndex = Math.floor(Math.random() * (maxIndex - minIndex + 1) + minIndex);
+tempAudio = audios[randomIndex];
+if(tempAudio.readyState == 4){
+avaibleIndexFlag = true;
+}
+}
+curAudio = tempAudio;
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+console.log('循环播放操作, 先把所有的播放都暂停掉');
+audios[indexItem].pause();
+}
+}
+curAudio.onended=loopfunc;
+curAudio.play();
+};
+document.getElementById("musicloop").onclick=function(){
+var maxIndex = audios.length;
+var minIndex = 0;
+var avaibleIndexFlag = false;
+var tempAudio;
+var randomIndex;
+while(!avaibleIndexFlag){
+randomIndex = Math.floor(Math.random() * (maxIndex - minIndex + 1) + minIndex);
+tempAudio = audios[randomIndex];
+if(tempAudio.readyState == 4){
+avaibleIndexFlag = true;
+}
+}
+curAudio = tempAudio;
+console.log('随机数: randomIndex = '+ randomIndex);
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+console.log('循环播放操作, 先把所有的播放都暂停掉');
+audios[indexItem].pause();
+}
+}
+curAudio.onended=loopfunc;
+curAudio.play();
+};
 }
 );
 </script>
