@@ -8,42 +8,52 @@ var audios = document.getElementsByTagName("audio");
 var curAudio = null;
 document.getElementById("musicpause").onclick=function(){
 console.log('暂停操作');
-if(curAudio != null){
-var playFlag = curAudio.paused;
-alert(' audios.length= '+ audios.length+" curAudio ="+ curAudio.toString());
-console.log('暂停操作2'+ curAudio);
-if(!playFlag){
-console.log('暂停操作2.1');
-curAudio.pause();
-console.log('暂停操作3');
-}
-}
-else{
 var indexItem;
 console.log('暂停操作4');
 for(indexItem in audios){
 console.log('暂停操作4.1  indexItem = '+ indexItem.toString());
 console.log('暂停操作 5 indexItem '+ audios[indexItem].innerHTML);
 if(Number.isInteger(parseInt(indexItem))){
+if(!audios[indexItem].paused){
+curAudio = audios[indexItem];
+}
 console.log('暂停操作 6 indexItem '+ audios[indexItem].innerHTML);
 audios[indexItem].pause();
 }
 console.log('暂停操作7');
-}}
+}
 console.log('暂停操作 end');
 };
 document.getElementById("musicplay").onclick=function(){
 var indexItem;
+var findFlag = false;
+if(curAudio == null){
 for(indexItem in audios){
-var findItem = false;
+if(Number.isInteger(parseInt(indexItem))){
+console.log('播放操作1 如果当前 curAudio 为空的话 先暂停所有的播放 indexItem='+indexItem);
 audios[indexItem].pause();
-if(audios[indexItem].paused){
+}
+}
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
 if(audios[indexItem].readyState == 4){
-if(!findItem){
+if(!findFlag){
 curAudio = audios[indexItem];
 curAudio.play();
-findItem = true;
-}}}}
+findFlag = true;
+}}
+}
+}
+findFlag = false;
+} else{
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+console.log('播放操作2 如果当前 curAudio 不空的话 先暂停所有的播放 点击暂停那么只播放一首歌曲 其余关闭');
+audios[indexItem].pause();
+}
+}
+curAudio.play();
+}
 };
 }
 );
