@@ -1,3 +1,53 @@
+# 控制
+<p>
+<button id="musicpause" type="button" onclick="music_pause()"  style="height:100px;width:60px;display:inline-block;">暂停播放歌曲</button>      <button id="musicplay" type="button" onclick="music_play()"  style="height:100px;width:60px;display:inline-block;" >继续播放歌曲</button>    <button  id="musicloop" type="button" onclick="music_loop()"  style="height:100px;width:60px;display:inline-block;" >随机循环播放</button>
+</p>
+
+<script>$(function() {
+var audios = document.getElementsByTagName("audio");
+var curAudio = null;
+document.getElementById("musicpause").onclick=function(){
+alert('暂停操作');
+if(curAudio != null){
+var playFlag = curAudio.paused;
+if(!playFlag){
+curAudio.pause();
+}else{
+var indexItem;
+for(indexItem in audios){
+if(!audios[indexItem].paused){
+curAudio = audios[indexItem];
+}
+audios[indexItem].pause();
+}}
+};
+};
+document.getElementById("musicplay").onclick=function(){
+alert('你好，播放操作 jsxa1 audios.length = '+ audios.length);
+if(curAudio != null && !curAudio.paused){
+var playFlag = curAudio.paused;
+if(!playFlag){
+curAudio.play();
+}
+} else {
+var indexItem;
+for(indexItem in audios){
+var findItem = false;
+audios[indexItem].pause();
+if(audios[indexItem].paused){
+if(audios[indexItem].readyState == 4){
+if(!findItem){
+curAudio = audios[i];
+curAudio.play();
+findItem = true;
+}}}}
+}
+};
+}
+);
+</script>
+
+
 # 国语
 
 ## A
