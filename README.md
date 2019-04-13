@@ -23,9 +23,6 @@ var indexItem;
 console.log('暂停操作4');
 for(indexItem in audios){
 console.log('暂停操作4.1  indexItem = '+ indexItem.toString());
-if(!audios[indexItem].paused){
-curAudio = audios[indexItem];
-}
 console.log('暂停操作 5 indexItem '+ audios[indexItem].innerHTML);
 if(Number.isInteger(parseInt(indexItem))){
 console.log('暂停操作 6 indexItem '+ audios[indexItem].innerHTML);
@@ -36,14 +33,6 @@ console.log('暂停操作7');
 console.log('暂停操作 end');
 };
 document.getElementById("musicplay").onclick=function(){
-alert('你好，播放操作1 audios.length = '+ audios.length);
-if(curAudio != null && !curAudio.paused){
-var playFlag = curAudio.paused;
-if(!playFlag){
-curAudio.play();
-console.log('播放操作 2');
-}
-} else {
 var indexItem;
 for(indexItem in audios){
 var findItem = false;
@@ -55,7 +44,6 @@ curAudio = audios[indexItem];
 curAudio.play();
 findItem = true;
 }}}}
-}
 };
 }
 );
