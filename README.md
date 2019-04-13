@@ -7,27 +7,41 @@
 var audios = document.getElementsByTagName("audio");
 var curAudio = null;
 document.getElementById("musicpause").onclick=function(){
-alert('暂停操作');
+console.log('暂停操作');
 if(curAudio != null){
 var playFlag = curAudio.paused;
+alert(' audios.length= '+ audios.length+" curAudio ="+ curAudio.toString());
+console.log('暂停操作2'+ curAudio);
 if(!playFlag){
+console.log('暂停操作2.1');
 curAudio.pause();
-}else{
+console.log('暂停操作3');
+}
+}
+else{
 var indexItem;
+console.log('暂停操作4');
 for(indexItem in audios){
+console.log('暂停操作4.1  indexItem = '+ indexItem.toString());
 if(!audios[indexItem].paused){
 curAudio = audios[indexItem];
 }
+console.log('暂停操作 5 indexItem '+ audios[indexItem].innerHTML);
+if(Number.isInteger(parseInt(indexItem))){
+console.log('暂停操作 6 indexItem '+ audios[indexItem].innerHTML);
 audios[indexItem].pause();
+}
+console.log('暂停操作7');
 }}
-};
+console.log('暂停操作 end');
 };
 document.getElementById("musicplay").onclick=function(){
-alert('你好，播放操作 jsxa1 audios.length = '+ audios.length);
+alert('你好，播放操作1 audios.length = '+ audios.length);
 if(curAudio != null && !curAudio.paused){
 var playFlag = curAudio.paused;
 if(!playFlag){
 curAudio.play();
+console.log('播放操作 2');
 }
 } else {
 var indexItem;
@@ -37,7 +51,7 @@ audios[indexItem].pause();
 if(audios[indexItem].paused){
 if(audios[indexItem].readyState == 4){
 if(!findItem){
-curAudio = audios[i];
+curAudio = audios[indexItem];
 curAudio.play();
 findItem = true;
 }}}}
@@ -46,7 +60,6 @@ findItem = true;
 }
 );
 </script>
-
 
 # 国语
 
