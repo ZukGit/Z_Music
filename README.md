@@ -270,6 +270,27 @@
 
 
 
+
+
+
+# 古典音乐
+
+## kimi_wo_omou_melodi 想念你的旋律
+
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/classical/kimi_wo_omou_melodi.mp3" type="audio/mpeg">
+</audio>
+
+
+
+## summer 久石让
+
+<audio controls>
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/classical/summer.mp3" type="audio/mpeg">
+</audio>
+
+
+
 # 外语
 
 ## Charlie_Puth 查理·普斯
@@ -326,23 +347,149 @@
   <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/aoi_teshima/the_rose.mp3" type="audio/mpeg">
 </audio>
 
+# 英语学习曲目
 
-
-# 古典音乐
-
-## kimi_wo_omou_melodi 想念你的旋律
-
-<audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/classical/kimi_wo_omou_melodi.mp3" type="audio/mpeg">
-</audio>
+## Learning_English
 
 
 
-## summer 久石让
+### all_rise.mp3   
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/all_rise.mp3" type="audio/mpeg"></audio>
 
-<audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/classical/summer.mp3" type="audio/mpeg">
-</audio>
+### apologize.mp3   
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/apologize.mp3" type="audio/mpeg"></audio>
+
+### as_long_as_you_love_me.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/as_long_as_you_love_me.mp3" type="audio/mpeg"></audio>
+
+### baby_one_more_time.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/baby_one_more_time.mp3" type="audio/mpeg"></audio>
+
+### because_of_you.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/because_of_you.mp3" type="audio/mpeg"></audio>
+
+### big_big_world.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/big_big_world.mp3" type="audio/mpeg"></audio>
+
+### burning.mp3       
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/burning.mp3" type="audio/mpeg"></audio>
+
+### complicated.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/complicated.mp3" type="audio/mpeg"></audio>
+
+### dream_it_possible.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/dream_it_possible.mp3" type="audio/mpeg"></audio>
 
 
+### everybody.mp3                 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/everybody.mp3" type="audio/mpeg"></audio>
 
+### everything _at_once.mp3 
+
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/everything _at_once.mp3" type="audio/mpeg"></audio>
+
+### far_away_from_home.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/far_away_from_home.mp3" type="audio/mpeg"></audio>
+
+### five_hundred_miles.mp3   
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/five_hundred_miles.mp3" type="audio/mpeg"></audio>
+
+### girlfriend.mp3   
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/girlfriend.mp3" type="audio/mpeg"></audio>
+
+### god_is_girl.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/god_is_girl.mp3" type="audio/mpeg"></audio>
+
+
+### hotel_california.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/hotel_california.mp3" type="audio/mpeg"></audio>
+
+### i_believe_i_can_fly.mp3       
+
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/i_believe_i_can_fly.mp3" type="audio/mpeg"></audio>
+
+### i_could_be_the_one.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/i_could_be_the_one.mp3" type="audio/mpeg"></audio>
+
+
+### i_want_it_that_way.mp3   
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/i_want_it_that_way.mp3" type="audio/mpeg"></audio>
+
+### in_the_end.mp3    
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/in_the_end.mp3" type="audio/mpeg"></audio>
+
+### innocence.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/innocence.mp3" type="audio/mpeg"></audio>
+
+
+### it_is_my_life.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/it_is_my_life.mp3" type="audio/mpeg"></audio>
+
+
+### leave_out_all_the_rest.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/leave_out_all_the_rest.mp3" type="audio/mpeg"></audio>
+
+### lonely.mp3    
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/lonely.mp3" type="audio/mpeg"></audio>
+
+### my_love.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/my_love.mp3" type="audio/mpeg"></audio>
+
+### never_say_goodbye.mp3         
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/never_say_goodbye.mp3" type="audio/mpeg"></audio>
+
+### numb.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/numb.mp3" type="audio/mpeg"></audio>
+
+### one_love.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/one_love.mp3" type="audio/mpeg"></audio>
+
+
+### only_time.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/only_time.mp3" type="audio/mpeg"></audio>
+
+### peerless.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/peerless.mp3" type="audio/mpeg"></audio>
+
+### pretty_boy.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/pretty_boy.mp3" type="audio/mpeg"></audio>
+
+### right_here_waiting.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/right_here_waiting.mp3" type="audio/mpeg"></audio>
+
+### roar.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/roar.mp3" type="audio/mpeg"></audio>
+
+### seasons_in_the_sun.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/seasons_in_the_sun.mp3" type="audio/mpeg"></audio>
+
+### see_you_again.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/see_you_again.mp3" type="audio/mpeg"></audio>
+
+### she.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/she.mp3" type="audio/mpeg"></audio>
+
+### sugar.mp3    
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/sugar.mp3" type="audio/mpeg"></audio>
+
+### take_me_to_your_heart.mp3   
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/take_me_to_your_heart.mp3" type="audio/mpeg"></audio>
+
+  
+### the_day_you_went_away.mp3     
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/the_day_you_went_away.mp3" type="audio/mpeg"></audio>
+
+### the_rose.mp3
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/the_rose.mp3" type="audio/mpeg"></audio>
+
+### valder_fields.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/valder_fields.mp3" type="audio/mpeg"></audio>
+
+### yesterday_once_more.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/yesterday_once_more.mp3" type="audio/mpeg"></audio>
+
+### you_make_me_wanna.mp3  
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/you_make_me_wanna.mp3" type="audio/mpeg"></audio>
+
+### you_raise_me_up.mp3 
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/english/learn_english/you_raise_me_up.mp3" type="audio/mpeg"></audio>
