@@ -284,8 +284,49 @@ curAudio.play();
 
 
 
-
 ### 周杰伦
+#### 半岛铁盒
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/ban_dao_tie_he.mp3" type="audio/mpeg"/></audio>
+#### 可爱女人
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/ke_ai_nv_ren.mp3" type="audio/mpeg"/></audio>
+#### 三年二班
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/san_nian_er_ban.mp3" type="audio/mpeg"/></audio>
+#### 上海一九四三
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/shang_hai_yi_jiu_si_san.mp3" type="audio/mpeg"/></audio>
+#### 你听得到
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/ni_ting_de_dao.mp3" type="audio/mpeg"/></audio>
+#### 告白气球
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/gao_bai_qi_qiu.mp3" type="audio/mpeg"/></audio>
+#### 园游会
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/yuan_you_hui.mp3" type="audio/mpeg"/></audio>
+#### 外婆
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/wai_po.mp3" type="audio/mpeg"/></audio>
+#### 断了的弦
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/duan_le_de_xian.mp3" type="audio/mpeg"/></audio>
+#### 晴天
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/qin_tian.mp3" type="audio/mpeg"/></audio>
+#### 最后的战役
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/zui_hou_de_zhan_yi.mp3" type="audio/mpeg"/></audio>
+
+
+#### 爱在西元前
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/ai_zai_xi_yuan_qian.mp3" type="audio/mpeg"/></audio>
+
+#### 简单爱
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/jian_dan_ai.mp3" type="audio/mpeg"/></audio>
+#### 蜗牛
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/wo_niu.mp3" type="audio/mpeg"/></audio>
+#### 以父之名
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/yi_fu_zhi_ming.mp3" type="audio/mpeg"/></audio>
+#### 回到过去
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/hui_dao_guo_qu.mp3" type="audio/mpeg"/></audio>
+#### 安静
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/an_jing.mp3" type="audio/mpeg"/></audio>
+#### 开不了口
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/kai_bu_liao_kou.mp3" type="audio/mpeg"/></audio>
+#### 暗号
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/zhou_jie_lun/an_hao.mp3" type="audio/mpeg"/></audio>
+
 ### 赵雷
 
 #### 成都
