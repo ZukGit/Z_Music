@@ -225,6 +225,47 @@ curAudio.play();
 ## V
 ## W
 ### 王力宏
+
+#### can_you_feel_my_world
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/can_you_feel_my_world.mp3" type="audio/mpeg"/></audio>
+#### forever_love
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/forever_love.mp3" type="audio/mpeg"/></audio>
+#### kiss_goodbye
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/kiss_goodbye.mp3" type="audio/mpeg"/></audio>
+#### 一首简单的歌
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/yi_shou_jian_dan_de_ge.mp3" type="audio/mpeg"/></audio>
+#### 你不知道的事
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/ni_bu_zhi_dao_de_shi.mp3" type="audio/mpeg"/></audio>
+#### 你是我心内的一首歌
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/ni_shi_wo_xin_nei_de_yi_shou_ge.mp3" type="audio/mpeg"/></audio>
+#### 依然爱你
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/yi_ran_ai_ni.mp3" type="audio/mpeg"/></audio>
+#### 另一个天堂
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/ling_yi_ge_tian_tang.mp3" type="audio/mpeg"/></audio>
+#### 唯一
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/wei_yi.mp3" type="audio/mpeg"/></audio>
+#### 我们的歌
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/wo_men_de_ge.mp3" type="audio/mpeg"/></audio>
+#### 改变自己
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/gai_bian_zi_ji.mp3" type="audio/mpeg"/></audio>
+#### 春雨里洗过的太阳
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/chun_yu_li_xi_guo_de_tai_yang.mp3" type="audio/mpeg"/></audio>
+#### 爱一点
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/ai_yi_dian.mp3" type="audio/mpeg"/></audio>
+#### 爱你等于爱自己
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/ai_ni_deng_yu_ai_zi_ji.mp3" type="audio/mpeg"/></audio>
+#### 爱的就是你
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/ai_de_jiu_shi_ni.mp3" type="audio/mpeg"/></audio>
+#### 爱错
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/ai_cuo.mp3" type="audio/mpeg"/></audio>
+#### 花田错
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/hua_tian_cuo.mp3" type="audio/mpeg"/></audio>
+#### 需要人陪
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/xu_yao_ren_pei.mp3" type="audio/mpeg"/></audio>
+#### 龙的传人
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/wang_li_hong/long_de_chuan_ren.mp3" type="audio/mpeg"/></audio>
+
+
 ### 王大毛
 
 #### 去年夏天
