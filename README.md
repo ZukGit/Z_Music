@@ -436,6 +436,15 @@ curAudio.play();
 ## J1
 ## K1
 ## L1
+### 李克勤
+
+#### 护花使者
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/Z_Music/music/cantonese/li_ke_qin/hu_hua_shi_zhe.mp3" type="audio/mpeg"/></audio>
+#### 月半小夜曲
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/Z_Music/music/cantonese/li_ke_qin/yue_ban_xiao_ye_qu.mp3" type="audio/mpeg"/></audio>
+#### 红日
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/Z_Music/music/cantonese/li_ke_qin/hong_ri.mp3" type="audio/mpeg"/></audio>
+
 ## M1
 ## N1
 ## O1
