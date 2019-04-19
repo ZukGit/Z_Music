@@ -467,6 +467,12 @@ curAudio.play();
 ## Z1
 
 
+### 张国荣
+
+#### 倩女幽魂
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/cantonese/zhang_guo_rong/qian_nv_you_hun.mp3" type="audio/mpeg"/></audio>
+#### 我
+<audio controls><source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/cantonese/zhang_guo_rong/wo.mp3" type="audio/mpeg"/></audio>
 
 
 
