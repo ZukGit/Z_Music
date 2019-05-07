@@ -304,7 +304,7 @@ curAudio.play();
 
 #### 时间都去哪了
 <audio controls>
-  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/yu_wen_wen/ti_mian.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/ZukGit/Z_Music/master/music/chinese/yao_bei_na/shi_jian_dou_qu_na_le.mp3" type="audio/mpeg">
 </audio>
 
 ## Z
