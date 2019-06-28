@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>README.html</title>  <!-- #zukgitholdplace_1_title 顶部标签 -->
+<meta name="description" content="AOSP分析">
+<meta name="keywords" content="">
+<link rel="apple-touch-icon" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/images/icon_32.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/images/icon_152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/images/icon_167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/images/icon_180.png">
+<link rel="icon" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/images/icon_32.png" type="image/x-icon">
+<link rel="stylesheet" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/css/font-awesome.min.css">
+<script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/jquery.ztree.all-3.5.min.js"></script> <script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/toc_conf.js"></script> <script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/ztree_toc.js"></script> <script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/windows_load.js"></script> <link rel="stylesheet" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/css/nav_back.css"> <link rel="stylesheet" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/css/nav_plus.css"> <link rel="stylesheet" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/css/zTreeStyle.css"><script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/nav_opt.js"></script>
+<link rel="stylesheet" href="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/style.css">
+<link rel="pingback" href="http://host810096584.s248.pppf.com.cn/xmlrpc.php" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #5cedcb; background-image: url("http://host810096584.s248.pppf.com.cn/wp-content/uploads/2019/04/10.gif"); background-position: right bottom; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+<style type="text/css">
+a{color:#5cedcb}
+a:hover{color:#2980b9!important}
+.navdiv a:hover{color:#7f42c1 !important}
+#header{background-color:#5cedcb!important}
+.widget .widget-title::after{background-color:#5cedcb}
+.uptop{border-left-color:#5cedcb}
+.sub-menu{background-color:rgba(128, 52, 187, 0.8)    !important}
+#header .nav ul li { border-bottom: 1px solid #d1f1e9; !important}
+#header .nav a:hover {cursor: pointer;color: #00ff10 !important;}
+#titleBar .toggle:before{background:#5cedcb}
+#titleBar .title { background:#5cedcb  !important }
+.col-md-offset-2 {margin-left: 15em;  !important}.ztree li a.curSelectedNode {  background-color: #5cc26f !important; } .ztree li a {     color: #8351c6; }   .col-md-8 { width: 80% !important; }  .img-circle {border-radius: 50% !important;  }
+</style>
+</head>
+<body>
+<header id="header">
+    <div class="avatar"><a href="http://host810096584.s248.pppf.com.cn/" title="Z" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><img src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/images/icon_152.png" alt="Z" class="img-circle" width="50%"></a></div>
+    <h1 id="name">Z</h1>
+    <div class="sns">
+		<a href="https://blog.csdn.net/u010842019" target="_blank" rel="nofollow" title="CSDN" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><i class="fa fa-star" aria-hidden="true"></i></a>				
+                <a href="https://github.com/ZukGit" target="_blank" rel="nofollow" title="GitHub" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><i class="fa fa-github" aria-hidden="true"></i></a>    </div>
+    <div class="nav">
+        <ul><li><a href="http://host810096584.s248.pppf.com.cn/category/program/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">编程</a>
+<ul class="sub-menu">
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/program/java/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Java</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/program/python/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Python</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/program/cplusplus/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">C++</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/program/shell/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Shell</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/program/c/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">C语言</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/program/json/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">JSON</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/program/gradle/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Gradle</a></li>
+</ul>
+</li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/system/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">系统</a>
+<ul class="sub-menu">
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/system/linux/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Linux</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/system/android/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">安卓</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/system/macos/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">MacOS</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/system/windows/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Windows</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/system/ios/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">IOS</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/system/wechat/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">微信</a></li>
+</ul>
+</li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/vendor/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">厂商</a>
+<ul class="sub-menu">
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/vendor/qcom/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Qcom</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/vendor/mtk/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">MTK</a></li>
+</ul>
+</li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/tool/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">工具</a>
+<ul class="sub-menu">
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/tool/adb/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">ADB</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/tool/git/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Git</a></li>
+</ul>
+</li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/wireless/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">无线</a>
+<ul class="sub-menu">
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/wireless/wifi/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">WiFi</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/wireless/bluetooth/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">蓝牙</a></li>
+	<li><a href="http://host810096584.s248.pppf.com.cn/category/wireless/nfc/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">NFC</a></li>
+</ul>
+</li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/architect/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">架构</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/website/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">网站</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/selffree/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">自由</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/category/selfstudy/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">自研</a></li>
+</ul>    </div>
+    </header>
+<!--  #zukgit ztree begin-->
+<div id="treecontent" style="width:25%; ">
+<ul id="tree" class="ztree" style="width: 15em; margin-left: 12em !important; background: rgb(241, 241, 241) !important; overflow-x: hidden; overflow-y: auto; position: fixed; z-index: 1; border: 0px none; left: 0px; top: 0px; height: 562px;">
+</ul></div>
+<div id="main">
+<!--  #zukgit ztree end-->
+<div class="navdiv" style="margin-left:15em; background:#5cedcb !important"><a href="http://host810096584.s248.pppf.com.cn/" style="color:#FFFFFF" onmouseover="this.style.cssText=color:#7f42c1;">Home</a> <span>→</span><a href="http://host810096584.s248.pppf.com.cn/system/" style="color:#FFFFFF" onmouseover="this.style.cssText=color:#7f42c1;">系统</a> <span>→</span><a href="http://host810096584.s248.pppf.com.cn/system/376/" style="color:#FFFFFF" onmouseover="this.style.cssText=color:#7f42c1;">巨无霸页</a><a style="color:#FFFFFF;margin-left: 2.5em;" href="javascript:;" onclick="showNav()" onmouseover="this.style.cssText=color:#7f42c1;">显示导航 </a><a style="color:#FFFFFF;margin-left: 2.5em;" href="javascript:;" onclick="hideNav()" onmouseover="this.style.cssText=color:#7f42c1;">隐藏导航 </a><a style="color:#FFFFFF;margin-left: 2.5em;" href="javascript:;" onclick="hideLeft()" onmouseover="this.style.cssText=color:#7f42c1;">隐藏左侧 </a><a style="color:#FFFFFF;margin-left: 2.5em;" href="javascript:;" onclick="showLeft()" onmouseover="this.style.cssText=color:#7f42c1;">显示左侧 </a><a style="color:#FFFFFF;margin-left: 2.5em;" href="javascript:;" onclick="hideMain()" onmouseover="this.style.cssText=color:#7f42c1;">隐藏主菜单 </a><a style="color:#FFFFFF;margin-left: 5em;" onmouseover="this.style.cssText=color:#7f42c1;">好好学习  天天向上</a></div>    <article class="col-md-8 col-md-offset-2 view clearfix ">
+        <h1 class="view-title">README文件集合</h1>   <!-- #zukgitholdplace_2_contenttitle 文章标题 -->
+        <div class="view-meta">
+            <span>作者: zukgit</span>
+            <span>分类: <a href="http://host810096584.s248.pppf.com.cn/category/system/" rel="category tag">系统</a></span>
+            <span>发布时间: 2019-06-28 16:33:41</span> <!-- #zukgitholdplace_3_timestamp 文章发布时间 -->
+            <span></span>
+        </div>
+        <div class="view-content  markdown-body">   <!-- #zukgitholdplace_4_mdcontent 文章md内容页面		-->
+		<h1>控制</h1>
+<p>
+<button id="musicpause" type="button" onclick="music_pause()"  style="height:100px;width:60px;display:inline-block;">暂停播放歌曲</button>      <button id="musicplay" type="button" onclick="music_play()"  style="height:100px;width:60px;display:inline-block;" >继续播放歌曲</button>    <button  id="musicloop" type="button" onclick="music_loop()"  style="height:100px;width:60px;display:inline-block;" >随机循环播放</button>
+</p>
+<script>$(function() {
+var audios = document.getElementsByTagName("audio");
+var curAudio = null;
+document.getElementById("musicpause").onclick=function(){
+console.log('暂停操作');
+var indexItem;
+console.log('暂停操作4');
+for(indexItem in audios){
+console.log('暂停操作4.1  indexItem = '+ indexItem.toString());
+console.log('暂停操作 5 indexItem '+ audios[indexItem].innerHTML);
+if(Number.isInteger(parseInt(indexItem))){
+if(!audios[indexItem].paused){
+curAudio = audios[indexItem];
+}
+console.log('暂停操作 6 indexItem '+ audios[indexItem].innerHTML);
+audios[indexItem].pause();
+}
+console.log('暂停操作7');
+}
+console.log('暂停操作 end');
+};
+document.getElementById("musicplay").onclick=function(){
+var indexItem;
+var findFlag = false;
+if(curAudio == null){
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+console.log('播放操作1 如果当前 curAudio 为空的话 先暂停所有的播放 indexItem='+indexItem);
+audios[indexItem].pause();
+}
+}
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+if(audios[indexItem].readyState == 4){
+if(!findFlag){
+curAudio = audios[indexItem];
+curAudio.play();
+findFlag = true;
+}}
+}
+}
+findFlag = false;
+} else{
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+console.log('播放操作2 如果当前 curAudio 不空的话 先暂停所有的播放 点击暂停那么只播放一首歌曲 其余关闭');
+audios[indexItem].pause();
+}
+}
+curAudio.play();
+}
+};
+var loopfunc = function(){
+var maxIndex = audios.length;
+var minIndex = 0;
+var randomIndex;
+var tempAudio;
+var randomIndex;
+var avaibleIndexFlag = false;
+while(!avaibleIndexFlag){
+randomIndex = Math.floor(Math.random() * (maxIndex - minIndex + 1) + minIndex);
+tempAudio = audios[randomIndex];
+if(tempAudio.readyState == 4){
+avaibleIndexFlag = true;
+}
+}
+curAudio = tempAudio;
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+console.log('循环播放操作, 先把所有的播放都暂停掉');
+audios[indexItem].pause();
+}
+}
+curAudio.onended=loopfunc;
+curAudio.play();
+};
+document.getElementById("musicloop").onclick=function(){
+var maxIndex = audios.length;
+var minIndex = 0;
+var avaibleIndexFlag = false;
+var tempAudio;
+var randomIndex;
+while(!avaibleIndexFlag){
+randomIndex = Math.floor(Math.random() * (maxIndex - minIndex + 1) + minIndex);
+tempAudio = audios[randomIndex];
+if(tempAudio.readyState == 4){
+avaibleIndexFlag = true;
+}
+}
+curAudio = tempAudio;
+console.log('随机数: randomIndex = '+ randomIndex);
+for(indexItem in audios){
+if(Number.isInteger(parseInt(indexItem))){
+console.log('循环播放操作, 先把所有的播放都暂停掉');
+audios[indexItem].pause();
+}
+}
+curAudio.onended=loopfunc;
+curAudio.play();
+};
+}
+);
+</script>
+<h1>国语</h1>
+<h2>A</h2>
+<h2>B</h2>
+<h2>C</h2>
+<h3>陈鸿宇</h3>
+<h4>理想三旬</h4>
+<audio controls>
+  <source src="./music/chinese/chen_hong_yu/li_xiang_san_xun.mp3" type="audio/mpeg">
+</audio>
+<h2>D</h2>
+<h3>邓紫棋</h3>
+<h4>泡沫</h4>
+<audio controls>
+  <source src="./music/chinese/deng_zi_qi/pao_mo.mp3" type="audio/mpeg">
+</audio>
+<h2>E</h2>
+<h2>F</h2>
+<h2>G</h2>
+<h2>H</h2>
+<h2>I</h2>
+<h2>J</h2>
+<h2>K</h2>
+<h2>L</h2>
+<h3>林宥嘉</h3>
+<h4>成全</h4>
+<audio controls>
+  <source src="./music/chinese/lin_you_jia/cheng_quan.mp3" type="audio/mpeg">
+</audio>
+<h4>你把我灌醉</h4>
+<audio controls>
+  <source src="./music/chinese/lin_you_jia/ni_ba_wo_gaung_zui.mp3" type="audio/mpeg">
+</audio>
+<h4>傻子</h4>
+<audio controls>
+  <source src="./music/chinese/lin_you_jia/sha_zi.mp3" type="audio/mpeg">
+</audio>
+<h3>李荣浩</h3>
+<h4>模特</h4>
+<audio controls>
+  <source src="./music/chinese/li_rong_hao/mo_te.mp3" type="audio/mpeg">
+</audio>
+<h4>不将就</h4>
+<audio controls>
+  <source src="./music/chinese/li_rong_hao/bu_jiang_jiu.mp3" type="audio/mpeg">
+</audio>
+<h4>小芳</h4>
+<audio controls>
+  <source src="./music/chinese/li_rong_hao/xiao_fang.mp3" type="audio/mpeg">
+</audio>
+<h3>李志</h3>
+<h4>梵高先生</h4>
+<audio controls>
+  <source src="./music/chinese/li_zhi/fan_gao_xian_sheng.mp3" type="audio/mpeg">
+</audio>
+<h2>M</h2>
+<h2>N</h2>
+<h3>南征北战</h3>
+<h4>我的天空</h4>
+<audio controls>
+  <source src="./music/chinese/nan_zhen_bei_zhan/wo_de_tian_kong.mp3" type="audio/mpeg">
+</audio>
+<h2>O</h2>
+<h2>P</h2>
+<h3>鹏泊</h3>
+<h4>啷个哩个啷</h4>
+<audio controls>
+  <source src="./music/chinese/peng_bo/lang_li_ge_lang.mp3" type="audio/mpeg">
+</audio>
+<h2>Q</h2>
+<h2>R</h2>
+<h2>S</h2>
+<h3>苏打绿</h3>
+<h4>当我们一起走过</h4>
+<audio controls>
+  <source src="./music/chinese/su_da_lv/dang_wo_men_yi_qi_zou_guo.mp3" type="audio/mpeg">
+</audio>
+<h2>T</h2>
+<h3>逃跑计划</h3>
+<h4>夜空中最亮的星</h4>
+<audio controls>
+  <source src="./music/chinese/tao_pao_ji_hua/ye_kong_zhong_zui_liang_de_xing.mp3" type="audio/mpeg">
+</audio>
+<h2>U</h2>
+<h2>V</h2>
+<h2>W</h2>
+<h3>王力宏</h3>
+<h4>can_you_feel_my_world</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/can_you_feel_my_world.mp3" type="audio/mpeg"/></audio>
+<h4>forever_love</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/forever_love.mp3" type="audio/mpeg"/></audio>
+<h4>kiss_goodbye</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/kiss_goodbye.mp3" type="audio/mpeg"/></audio>
+<h4>一首简单的歌</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/yi_shou_jian_dan_de_ge.mp3" type="audio/mpeg"/></audio>
+<h4>你不知道的事</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/ni_bu_zhi_dao_de_shi.mp3" type="audio/mpeg"/></audio>
+<h4>你是我心内的一首歌</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/ni_shi_wo_xin_nei_de_yi_shou_ge.mp3" type="audio/mpeg"/></audio>
+<h4>依然爱你</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/yi_ran_ai_ni.mp3" type="audio/mpeg"/></audio>
+<h4>另一个天堂</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/ling_yi_ge_tian_tang.mp3" type="audio/mpeg"/></audio>
+<h4>唯一</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/wei_yi.mp3" type="audio/mpeg"/></audio>
+<h4>我们的歌</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/wo_men_de_ge.mp3" type="audio/mpeg"/></audio>
+<h4>改变自己</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/gai_bian_zi_ji.mp3" type="audio/mpeg"/></audio>
+<h4>春雨里洗过的太阳</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/chun_yu_li_xi_guo_de_tai_yang.mp3" type="audio/mpeg"/></audio>
+<h4>爱一点</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/ai_yi_dian.mp3" type="audio/mpeg"/></audio>
+<h4>爱你等于爱自己</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/ai_ni_deng_yu_ai_zi_ji.mp3" type="audio/mpeg"/></audio>
+<h4>爱的就是你</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/ai_de_jiu_shi_ni.mp3" type="audio/mpeg"/></audio>
+<h4>爱错</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/ai_cuo.mp3" type="audio/mpeg"/></audio>
+<h4>花田错</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/hua_tian_cuo.mp3" type="audio/mpeg"/></audio>
+<h4>需要人陪</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/xu_yao_ren_pei.mp3" type="audio/mpeg"/></audio>
+<h4>龙的传人</h4>
+<audio controls><source src="./music/chinese/wang_li_hong/long_de_chuan_ren.mp3" type="audio/mpeg"/></audio>
+<h3>王大毛</h3>
+<h4>去年夏天</h4>
+<audio controls>
+  <source src="./music/chinese/wang_da_mao/qu_nian_xia_tian.mp3" type="audio/mpeg">
+</audio>
+<h2>X</h2>
+<h3>薛之谦</h3>
+<h4>演员</h4>
+<audio controls>
+  <source src="./music/chinese/xue_zhi_qian/yan_yuan.mp3" type="audio/mpeg">
+</audio>
+<h4>丑八怪</h4>
+<audio controls>
+  <source src="./music/chinese/xue_zhi_qian/chou_ba_guai.mp3" type="audio/mpeg">
+</audio>
+<h2>Y</h2>
+<h3>于文文</h3>
+<h4>体面</h4>
+<audio controls>
+  <source src="./music/chinese/yu_wen_wen/ti_mian.mp3" type="audio/mpeg">
+</audio>
+<h3>姚贝娜</h3>
+<h4>时间都去哪了</h4>
+<audio controls>
+  <source src="./music/chinese/yao_bei_na/shi_jian_dou_qu_na_le.mp3" type="audio/mpeg">
+</audio>
+<h2>Z</h2>
+<h3>张学友</h3>
+<h4>遥远的他</h4>
+<audio controls>
+  <source src="./music/chinese/zhang_xue_you/yao_yuan_de_ta.mp3" type="audio/mpeg">
+</audio>
+<h4>情书</h4>
+<audio controls>
+  <source src="./music/chinese/zhang_xue_you/qing_shu.mp3" type="audio/mpeg">
+</audio>
+<h3>张震岳</h3>
+<h4>再见</h4>
+<audio controls>
+  <source src="./music/chinese/zhang_zhen_yue/zai_jian.mp3" type="audio/mpeg">
+</audio>
+<h3>周杰伦</h3>
+<h4>半岛铁盒</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/ban_dao_tie_he.mp3" type="audio/mpeg"/></audio>
+<h4>可爱女人</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/ke_ai_nv_ren.mp3" type="audio/mpeg"/></audio>
+<h4>三年二班</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/san_nian_er_ban.mp3" type="audio/mpeg"/></audio>
+<h4>上海一九四三</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/shang_hai_yi_jiu_si_san.mp3" type="audio/mpeg"/></audio>
+<h4>你听得到</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/ni_ting_de_dao.mp3" type="audio/mpeg"/></audio>
+<h4>告白气球</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/gao_bai_qi_qiu.mp3" type="audio/mpeg"/></audio>
+<h4>园游会</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/yuan_you_hui.mp3" type="audio/mpeg"/></audio>
+<h4>外婆</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/wai_po.mp3" type="audio/mpeg"/></audio>
+<h4>断了的弦</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/duan_le_de_xian.mp3" type="audio/mpeg"/></audio>
+<h4>晴天</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/qin_tian.mp3" type="audio/mpeg"/></audio>
+<h4>最后的战役</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/zui_hou_de_zhan_yi.mp3" type="audio/mpeg"/></audio>
+<h4>爱在西元前</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/ai_zai_xi_yuan_qian.mp3" type="audio/mpeg"/></audio>
+<h4>简单爱</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/jian_dan_ai.mp3" type="audio/mpeg"/></audio>
+<h4>蜗牛</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/wo_niu.mp3" type="audio/mpeg"/></audio>
+<h4>以父之名</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/yi_fu_zhi_ming.mp3" type="audio/mpeg"/></audio>
+<h4>回到过去</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/hui_dao_guo_qu.mp3" type="audio/mpeg"/></audio>
+<h4>安静</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/an_jing.mp3" type="audio/mpeg"/></audio>
+<h4>开不了口</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/kai_bu_liao_kou.mp3" type="audio/mpeg"/></audio>
+<h4>暗号</h4>
+<audio controls><source src="./music/chinese/zhou_jie_lun/an_hao.mp3" type="audio/mpeg"/></audio>
+<h3>赵雷</h3>
+<h4>成都</h4>
+<audio controls>
+  <source src="./music/chinese/zhao_lei/cheng_du.mp3" type="audio/mpeg">
+</audio>
+<h1>粤语</h1>
+<h2>A1</h2>
+<h2>B1</h2>
+<h3>Beyond</h3>
+<h4>amani</h4>
+<audio controls>
+  <source src="./music/cantonese/beyond/amani.mp3" type="audio/mpeg">
+</audio>
+<h4>光辉岁月</h4>
+<audio controls>
+  <source src="./music/cantonese/beyond/guang_hui_sui_yue.mp3" type="audio/mpeg">
+</audio>
+<h4>再见理想</h4>
+<audio controls>
+  <source src="./music/cantonese/beyond/zai_jian_li_xiang.mp3" type="audio/mpeg">
+</audio>
+<h4>逝去日子</h4>
+<audio controls>
+  <source src="./music/cantonese/beyond/shi_qu_ri_zi.mp3" type="audio/mpeg">
+</audio>
+<h4>喜欢你</h4>
+<audio controls>
+  <source src="./music/cantonese/beyond/xi_huan_ni.mp3" type="audio/mpeg">
+</audio>
+<h4>真的爱你</h4>
+<audio controls>
+  <source src="./music/cantonese/beyond/zhen_de_ai_ni.mp3" type="audio/mpeg">
+</audio>
+<h2>C1</h2>
+<h3>陈慧娴</h3>
+<h4>千千阕歌</h4>
+<audio controls>
+  <source src="./music/cantonese/chen_hui_xian/qian_qian_que_yu.mp3" type="audio/mpeg">
+</audio>
+<h2>D1</h2>
+<h2>E1</h2>
+<h2>F1</h2>
+<h2>G1</h2>
+<h2>H1</h2>
+<h2>I1</h2>
+<h2>J1</h2>
+<h2>K1</h2>
+<h2>L1</h2>
+<h3>李克勤</h3>
+<h4>护花使者</h4>
+<audio controls><source src="./music/cantonese/li_ke_qin/hu_hua_shi_zhe.mp3" type="audio/mpeg"/></audio>
+<h4>月半小夜曲</h4>
+<audio controls><source src="./music/cantonese/li_ke_qin/yue_ban_xiao_ye_qu.mp3" type="audio/mpeg"/></audio>
+<h4>红日</h4>
+<audio controls><source src="./music/cantonese/li_ke_qin/hong_ri.mp3" type="audio/mpeg"/></audio>
+<h2>M1</h2>
+<h2>N1</h2>
+<h2>O1</h2>
+<h2>P1</h2>
+<h2>Q1</h2>
+<h2>R1</h2>
+<h2>S1</h2>
+<h2>T1</h2>
+<h2>U1</h2>
+<h2>V1</h2>
+<h2>W1</h2>
+<h2>X1</h2>
+<h3>许冠杰</h3>
+<h4>沧海一声笑</h4>
+<audio controls>
+  <source src="./music/cantonese/xu_guang_jie/cang_hai_yi_sheng_xiao.mp3" type="audio/mpeg">
+</audio>
+<h2>Y1</h2>
+<h2>Z1</h2>
+<h3>张国荣</h3>
+<h4>倩女幽魂</h4>
+<audio controls><source src="./music/cantonese/zhang_guo_rong/qian_nv_you_hun.mp3" type="audio/mpeg"/></audio>
+<h4>我</h4>
+<audio controls><source src="./music/cantonese/zhang_guo_rong/wo.mp3" type="audio/mpeg"/></audio>
+<h1>古典音乐</h1>
+<h2>kimi_wo_omou_melodi 想念你的旋律</h2>
+<audio controls>
+  <source src="./music/classical/kimi_wo_omou_melodi.mp3" type="audio/mpeg">
+</audio>
+<h2>summer 久石让</h2>
+<audio controls>
+  <source src="./music/classical/summer.mp3" type="audio/mpeg">
+</audio>
+<h1>外语</h1>
+<h2>Charlie_Puth 查理·普斯</h2>
+<h3> 《See You Again》</h3>
+<audio controls>
+  <source src="./music/english/charlie_puth/see_you_again.mp3" type="audio/mpeg">
+</audio>
+<h2>Crpenters 卡朋特乐队</h2>
+<h3> Yesterday Once More</h3>
+<audio controls>
+  <source src="./music/english/crpenters/yesterday_once_more.mp3" type="audio/mpeg">
+</audio>
+<h2>Delacey</h2>
+<h3>dream it possible</h3>
+<audio controls>
+  <source src="./music/english/delacey/dream_it_possible.mp3" type="audio/mpeg">
+</audio>
+<h2>Tamas_Wells 塔马斯·韦尔斯</h2>
+<h3>valder fields</h3>
+<audio controls>
+  <source src="./music/english/tamas_wells/valder_fields.mp3" type="audio/mpeg">
+</audio>
+<h2> Maroon5</h2>
+<h3>Sugar</h3>
+<audio controls>
+  <source src="./music/english/maroon5/sugar.mp3" type="audio/mpeg">
+</audio>
+<h2>Justin Timberlake 贾斯汀·汀布莱克</h2>
+<h3>five hundred miles</h3>
+<audio controls>
+  <source src="./music/english/justin_timberlake/five_hundred_miles.mp3" type="audio/mpeg">
+</audio>
+<h2>LinkPark 林肯公园</h2>
+<h2>Richard Marx 理查德·马克斯</h2>
+<h3>Right Here Waiting</h3>
+<audio controls>
+  <source src="./music/english/richard_marx/right_here_waiting.mp3" type="audio/mpeg">
+</audio>
+<h2>Aoi Teshima  手嶌葵</h2>
+<h3>the rose</h3>
+<audio controls>
+  <source src="./music/english/aoi_teshima/the_rose.mp3" type="audio/mpeg">
+</audio>
+<h1>英语学习曲目</h1>
+<h2>Learning_English</h2>
+<h3>all_rise.mp3</h3>
+<audio controls><source src="./music/english/learn_english/all_rise.mp3" type="audio/mpeg"></audio>
+<h3>apologize.mp3</h3>
+<audio controls><source src="./music/english/learn_english/apologize.mp3" type="audio/mpeg"></audio>
+<h3>as_long_as_you_love_me.mp3</h3>
+<audio controls><source src="./music/english/learn_english/as_long_as_you_love_me.mp3" type="audio/mpeg"></audio>
+<h3>baby_one_more_time.mp3</h3>
+<audio controls><source src="./music/english/learn_english/baby_one_more_time.mp3" type="audio/mpeg"></audio>
+<h3>because_of_you.mp3</h3>
+<audio controls><source src="./music/english/learn_english/because_of_you.mp3" type="audio/mpeg"></audio>
+<h3>big_big_world.mp3</h3>
+<audio controls><source src="./music/english/learn_english/big_big_world.mp3" type="audio/mpeg"></audio>
+<h3>burning.mp3</h3>
+<audio controls><source src="./music/english/learn_english/burning.mp3" type="audio/mpeg"></audio>
+<h3>complicated.mp3</h3>
+<audio controls><source src="./music/english/learn_english/complicated.mp3" type="audio/mpeg"></audio>
+<h3>dream_it_possible.mp3</h3>
+<audio controls><source src="./music/english/learn_english/dream_it_possible.mp3" type="audio/mpeg"></audio>
+<h3>everybody.mp3</h3>
+<audio controls><source src="./music/english/learn_english/everybody.mp3" type="audio/mpeg"></audio>
+<h3>everything _at_once.mp3</h3>
+<audio controls><source src="./music/english/learn_english/everything _at_once.mp3" type="audio/mpeg"></audio>
+<h3>far_away_from_home.mp3</h3>
+<audio controls><source src="./music/english/learn_english/far_away_from_home.mp3" type="audio/mpeg"></audio>
+<h3>five_hundred_miles.mp3</h3>
+<audio controls><source src="./music/english/learn_english/five_hundred_miles.mp3" type="audio/mpeg"></audio>
+<h3>girlfriend.mp3</h3>
+<audio controls><source src="./music/english/learn_english/girlfriend.mp3" type="audio/mpeg"></audio>
+<h3>god_is_girl.mp3</h3>
+<audio controls><source src="./music/english/learn_english/god_is_girl.mp3" type="audio/mpeg"></audio>
+<h3>hotel_california.mp3</h3>
+<audio controls><source src="./music/english/learn_english/hotel_california.mp3" type="audio/mpeg"></audio>
+<h3>i_believe_i_can_fly.mp3</h3>
+<audio controls><source src="./music/english/learn_english/i_believe_i_can_fly.mp3" type="audio/mpeg"></audio>
+<h3>i_could_be_the_one.mp3</h3>
+<audio controls><source src="./music/english/learn_english/i_could_be_the_one.mp3" type="audio/mpeg"></audio>
+<h3>i_want_it_that_way.mp3</h3>
+<audio controls><source src="./music/english/learn_english/i_want_it_that_way.mp3" type="audio/mpeg"></audio>
+<h3>in_the_end.mp3</h3>
+<audio controls><source src="./music/english/learn_english/in_the_end.mp3" type="audio/mpeg"></audio>
+<h3>innocence.mp3</h3>
+<audio controls><source src="./music/english/learn_english/innocence.mp3" type="audio/mpeg"></audio>
+<h3>it_is_my_life.mp3</h3>
+<audio controls><source src="./music/english/learn_english/it_is_my_life.mp3" type="audio/mpeg"></audio>
+<h3>leave_out_all_the_rest.mp3</h3>
+<audio controls><source src="./music/english/learn_english/leave_out_all_the_rest.mp3" type="audio/mpeg"></audio>
+<h3>lonely.mp3</h3>
+<audio controls><source src="./music/english/learn_english/lonely.mp3" type="audio/mpeg"></audio>
+<h3>my_love.mp3</h3>
+<audio controls><source src="./music/english/learn_english/my_love.mp3" type="audio/mpeg"></audio>
+<h3>never_say_goodbye.mp3</h3>
+<audio controls><source src="./music/english/learn_english/never_say_goodbye.mp3" type="audio/mpeg"></audio>
+<h3>numb.mp3</h3>
+<audio controls><source src="./music/english/learn_english/numb.mp3" type="audio/mpeg"></audio>
+<h3>one_love.mp3</h3>
+<audio controls><source src="./music/english/learn_english/one_love.mp3" type="audio/mpeg"></audio>
+<h3>only_time.mp3</h3>
+<audio controls><source src="./music/english/learn_english/only_time.mp3" type="audio/mpeg"></audio>
+<h3>peerless.mp3</h3>
+<audio controls><source src="./music/english/learn_english/peerless.mp3" type="audio/mpeg"></audio>
+<h3>pretty_boy.mp3</h3>
+<audio controls><source src="./music/english/learn_english/pretty_boy.mp3" type="audio/mpeg"></audio>
+<h3>right_here_waiting.mp3</h3>
+<audio controls><source src="./music/english/learn_english/right_here_waiting.mp3" type="audio/mpeg"></audio>
+<h3>roar.mp3</h3>
+<audio controls><source src="./music/english/learn_english/roar.mp3" type="audio/mpeg"></audio>
+<h3>seasons_in_the_sun.mp3</h3>
+<audio controls><source src="./music/english/learn_english/seasons_in_the_sun.mp3" type="audio/mpeg"></audio>
+<h3>see_you_again.mp3</h3>
+<audio controls><source src="./music/english/learn_english/see_you_again.mp3" type="audio/mpeg"></audio>
+<h3>she.mp3</h3>
+<audio controls><source src="./music/english/learn_english/she.mp3" type="audio/mpeg"></audio>
+<h3>sugar.mp3</h3>
+<audio controls><source src="./music/english/learn_english/sugar.mp3" type="audio/mpeg"></audio>
+<h3>take_me_to_your_heart.mp3</h3>
+<audio controls><source src="./music/english/learn_english/take_me_to_your_heart.mp3" type="audio/mpeg"></audio>
+<h3>the_day_you_went_away.mp3</h3>
+<audio controls><source src="./music/english/learn_english/the_day_you_went_away.mp3" type="audio/mpeg"></audio>
+<h3>the_rose.mp3</h3>
+<audio controls><source src="./music/english/learn_english/the_rose.mp3" type="audio/mpeg"></audio>
+<h3>valder_fields.mp3</h3>
+<audio controls><source src="./music/english/learn_english/valder_fields.mp3" type="audio/mpeg"></audio>
+<h3>yesterday_once_more.mp3</h3>
+<audio controls><source src="./music/english/learn_english/yesterday_once_more.mp3" type="audio/mpeg"></audio>
+<h3>you_make_me_wanna.mp3</h3>
+<audio controls><source src="./music/english/learn_english/you_make_me_wanna.mp3" type="audio/mpeg"></audio>
+<h3>you_raise_me_up.mp3</h3>
+<audio controls><source src="./music/english/learn_english/you_raise_me_up.mp3" type="audio/mpeg"></audio>
+
+        </div>
+        <section class="view-tag">
+            <div class="pull-left"><i class="fa fa-tags"></i> </div>
+        </section>
+                <section id="comments">
+            	<div id="respond" class="comment-respond">
+		<h4 id="reply-title" class="comment-reply-title">发表评论 <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://host810096584.s248.pppf.com.cn/system/376/#respond" style="display:none;">取消回复</a></small></h4>			<form action="http://host810096584.s248.pppf.com.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">电子邮件地址不会被公开。</span> 必填项已用<span class="required">*</span>标注</p><div class="comment form-group has-feedback"><textarea class="form-control" id="comment" placeholder=" " name="comment" rows="5" aria-required="true" required="" onkeydown="if(event.ctrlKey){if(event.keyCode==13){document.getElementById(&#39;submit&#39;).click();return false}};"></textarea></div><div class="comment-form-author form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-user"></i></div><input class="form-control" placeholder="昵称" id="author" name="author" type="text" value="" "="" size="30"><span class="form-control-feedback required">*</span></div></div>
+<div class="comment-form-email form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-envelope-o"></i></div><input class="form-control" placeholder="邮箱" id="email" name="email" type="text" value="" "="" size="30"><span class="form-control-feedback required">*</span></div></div>
+<div class="comment-form-url form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-link"></i></div><input class="form-control" placeholder="网站" id="url" name="url" type="text" value="" "="" size="30"></div></div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-primary" value="发表评论"> <input type="hidden" name="comment_post_ID" value="376" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>			</form>
+			</div><!-- #respond -->
+	        </section>
+    </article>
+    <section class="col-md-8 col-md-offset-2 clearfix">
+    <div class="read">
+        <div class="read-head"> <i class="fa fa-book"></i> 更多阅读 </div>
+        <div class="read-list row">
+            <div class="col-md-6">
+                <ul>
+<li><a href="http://host810096584.s248.pppf.com.cn/tool/256/" target="_blank">graphviz-所想即所得-绘图工具</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/system/windows/278/" target="_blank">Windows使用小技巧</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/wireless/wifi/280/" target="_blank">WIFI术语缩词词典</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/selffree/282/" target="_blank">Home_Creatable_Thing</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/wireless/wifi/288/" target="_blank">wpa_supplicant分析</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/selffree/289/" target="_blank">WORLD_SCENE</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/wireless/wifi/298/" target="_blank">Wpa_Supplicant数据结构</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/selffree/301/" target="_blank">test</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/tool/304/" target="_blank">notepad的使用说明</a></li>
+<li><a href="http://host810096584.s248.pppf.com.cn/selfstudy/305/" target="_blank">试题总结页</a></li>                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/wireless/wifi/288/" title="wpa_supplicant分析">wpa_supplicant分析</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/system/376/" title="巨无霸页">巨无霸页</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/system/android/151/" title="安卓反编译操作">安卓反编译操作</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/tool/367/" title="JavaParser使用简介">JavaParser使用简介</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/system/android/212/" title="中文字符">中文字符</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/wireless/wifi/217/" title="wifi列表summary显示流程">wifi列表summary显示流程</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/tool/androidstudio/143/" title="AndroidStudio快捷键集合">AndroidStudio快捷键集合</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/selfstudy/170/" title="数学课本_八年级_上册">数学课本_八年级_上册</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/architect/188/" title="常用排序算法">常用排序算法</a></li>
+                                    <li><a href="http://host810096584.s248.pppf.com.cn/system/android/251/" title="安卓blueprint和soong构建系统">安卓blueprint和soong构建系统</a></li>
+                                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="read">
+        <div class="read-head"> <i class="fa fa-tags"></i> 标签云 </div>
+        <div class="read-list">
+                    </div>
+    </div>
+    </section>
+</div>
+<!--modal-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content single-dashang">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel"><i class="fa fa-cny" aria-hidden="true"></i> 打赏支持</h4>
+            </div>
+            <div class="modal-body text-center">
+                <p><img border="0" src="./C3_files/AliPay.png"><img border="0" src="./C3_files/WeixinPay.png"></p>
+                <p>扫描二维码，输入您要打赏的金额</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--modal-->
+<div class="footer_search visible-xs visible-sm">
+    <form id="searchform" action="http://host810096584.s248.pppf.com.cn/">
+        <div class="input-group">
+            <input type="search" class="form-control" placeholder="搜索…" value="" name="s">
+            <span class="input-group-btn"><button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button></span>
+        </div>
+    </form>
+</div>
+<footer id="footer">
+    <div class="copyright">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> 2019 <b>Zukgit</b></p>
+        <p>Powered by <b>WordPress</b>. Theme by <a href="https://tangjie.me/jiestyle-two" data-toggle="tooltip" data-placement="top" title="" target="_blank" data-original-title="WordPress 主题模板"><b>JieStyle Two</b></a> | </p>
+    </div>
+    <div style="display:none;">代码在页面底部，统计标识不会显示，但不影响统计效果</div>
+</footer>
+<script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/skel.min.js"></script>
+<script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/util.min.js"></script>
+<script type="text/javascript" src="https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/nav.js"></script>
+<script type='text/javascript' src='https://raw.githack.com/ZukGit/ZHtml/gh-pages/themes/StyleTheme3/js/comment-reply.min.js'></script>
+<script>
+$(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+});
+</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<div id="titleBar"><a href="http://host810096584.s248.pppf.com.cn/system/376/#header" class="toggle"></a><span class="title">Z</span></div></body></html>
